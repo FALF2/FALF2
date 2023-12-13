@@ -1,0 +1,55 @@
+#carousel-container {
+    position: relative;
+    max-width: 400px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+.portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 550px;
+    padding: 25px;
+}
+
+.boda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    padding: 25px;
+    margin: 150px 0px;
+}

@@ -1,0 +1,30 @@
+.contact-page{
+  width: 550px;
+  height: 40%;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px;
+}
+
+.contact-info{
+  background-color: #D1C1EF;
+  width: 550px;
+  height: 40%;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px;
+}
+
+textarea, input{
+  width: 500px;
+  background-color: #BFDF8C;
+  border-radius: 10px;
+  border-color: #638035;
+  border-style: solid;
+}
+
+input{
+  height: 25px;
+}

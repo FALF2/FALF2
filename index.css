@@ -1,0 +1,96 @@
+  /*bio*/
+  #nomarea{
+    /*width: 40%;
+    height: 40%;*/
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  #bio{
+    background-color: #BFDF8C;
+    width: 99%;
+    height: 225px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  #nombre{
+    text-align: left;
+    color: #61537B;
+    font-weight: bold;
+  }
+  
+  #area{
+    text-align: left;
+  }
+  
+  .texto{
+    text-align: justify;
+  }
+  
+  /*proyecto destacado*/
+  .desc {
+      color: #61537B;
+  }
+
+  img{
+    width: 341.25px;
+    height: 157.75px;
+    padding: 20px;
+  }
+
+  a.sub {
+      color: #FFDE59;
+      text-align: left;
+  }
+  
+  .sub:hover {
+      text-decoration: underline;
+  }
+  
+  .blog-post {
+      background-color: #FF9256;
+      display: flex;
+      border-radius: 10px;
+      width: 99%;
+      margin: 5px;
+      padding: 15px;
+  }
+  
+  .post-content {
+      flex: 1;
+      padding: 20px;
+  }
+  
+  .blog-post img{
+    width: 340px;
+    height: 175px;
+    padding: 20px;
+  }
+  
+  /*contacto*/
+  .contact-info{
+    background-color: #D1C1EF;
+    width: 99%;
+    height: 40%;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  textarea, input{
+    width: 500px;
+    background-color: #BFDF8C;
+    border-radius: 10px;
+    border-color: #638035;
+    border-style: solid;
+  }
+  
+  input{
+    height: 25px;
+  }

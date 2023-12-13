@@ -1,0 +1,90 @@
+  body {
+    font-family: Helverica, Verdana;
+    margin: 0;
+    padding: 0;
+    /* background-color: #333; */
+    background-color: #FFF8ED;
+  }
+  
+  header {
+      background-color: #FFDE59;
+      padding: 20px;
+      color: white;
+      text-align: center;
+  }
+  
+  .boton1:hover {
+      background-color: #638035;
+      color: #BFDF8C;
+  }
+  
+  .boton2:hover {
+      background-color: #AD592A;
+      color: #FF9256;
+  }
+  
+  .boton3:hover {
+      background-color: #61537B;
+      color: #D1C1EF;
+  }
+  
+  button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .boton1, .boton2, .boton3{
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  .boton1{
+    background-color: #BFDF8C;
+    color: #638035;
+  }
+  
+  .boton2{
+    background-color: #FF9256;
+    color: #FFF8ED;
+  }
+  
+  .boton3{
+    background-color: #D1C1EF;
+    color: #61537B;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ff6f61;
+    text-align: center;
+  }
+  
+  a{
+    color: #61537B;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  p{
+    color: #FFF8ED;
+    text-align: left;
+  }
+  
+  ul{
+    color: #FFF8ED;
+    text-align: left;
+  }
+
+  /*Footer*/
+  footer {
+      background-color: #FFDE59;
+      text-align: center;
+      padding: 20px;
+      color: white;
+  }
